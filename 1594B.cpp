@@ -27,7 +27,7 @@ void solve(){
     cin>>a>>b;
     //bitset<21> n(b);
     int s=0;
-    For(i,0,21){
+    For(i,0,31){
         if(((b>>i)&1)) {
             //cout<<i<<"\n";
             s+=pow2(a,i);
